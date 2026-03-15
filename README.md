@@ -120,6 +120,7 @@ def train_model(model, train_loader, test_loader, loss_fn, optimizer, epochs=3):
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
+![Model Plot](https://raw.githubusercontent.com/shivu1405/NER-using-LSTM/5659c330db1782d5a9af0eb8df2842de26a9edc1/plot.png)
 
 
 ### Sample Text Prediction
@@ -128,3 +129,5 @@ Include your sample text prediction here.
 ![NER Output](https://raw.githubusercontent.com/shivu1405/NER-using-LSTM/0d15426f5605d7c82f42c2c4dc46a95348e49693/Screenshot%202026-03-15%20191427.png)
 
 ## RESULT
+
+Thus, a BiLSTM-based Named Entity Recognition model was successfully implemented using PyTorch, and the model was able to identify named entities such as person names, locations, and organizations from text.
